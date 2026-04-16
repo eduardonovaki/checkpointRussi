@@ -1,6 +1,6 @@
-estado = int(input("Qual o código do estado de origem da carga do caminhão? "))
+estado = int(input("Qual o código do estado de origem da carga do caminhão? (1 a 5): "))
 peso = float(input("Qual o peso da carga do caminhão, em toneladas? "))
-codigo = int(input("Digite o código da carga: "))
+codigo = int(input("Digite o código da carga (10a 40): "))
 
 pesoCargaKg = peso * 1000
 
