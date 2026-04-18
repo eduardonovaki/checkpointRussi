@@ -20,7 +20,7 @@ def calcular_bonus(cargo, recebeu_bonus):
 ################################################################################
 # PROGRAMA PRINCIPAL
 nome = input("Digite seu nome: ")
-cargo = int(input("Cargo(1-Gerente, 2-Analista, 3-Assistente, 4-Estagiário); "))
+cargo = int(input("Digite seu cargo(1-Gerente, 2-Analista, 3-Assistente, 4-Estagiário): "))
 salario_base = float(input("Salário base: "))
 horas_extras = float(input("Total de horas extras: "))
 faltas = int(input("Total de faltas: "))

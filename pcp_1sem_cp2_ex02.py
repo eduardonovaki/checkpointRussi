@@ -12,19 +12,17 @@ A,B,C=lados
 if A>= B + C:
     print("Não forma Triângulo")
 else:
- if A**2 == B**2 + C**2:
-    print("Triangulo Retangulo")
-
-
- elif A**2 > B**2 + C**2:
-   print("Triangulo Obtusângulo")
- elif A**2< B**2 + C**2:
-    print("Triângulo Equilatero")
+    if A**2 == B**2 + C**2:
+        print("Triangulo Retangulo")
+    if A**2 > B**2 + C**2:
+        print("Triangulo Obtusângulo")
+    if A**2< B**2 + C**2:
+        print("Triângulo Equilatero")
 
 
 #Três ângulos iguais
-if A==B==C:
- print("Triângulo equilatero")
+    if A==B==C:
+        print("Triângulo equilatero")
 # Dois ângulos iguais
-elif A == B or B == C or A==C:
-  print("Triângulo isosceles")
+    elif A == B or B == C or A==C:
+        print("Triângulo isosceles")
