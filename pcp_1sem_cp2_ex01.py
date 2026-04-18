@@ -22,5 +22,11 @@ if (estado == 4):
 if (estado == 5):
     imposto = 0
 precoDaCarga = precoPorKg * pesoCargaKg
-valorTotal = precoDaCarga + (precoDaCarga * imposto)
+valorImposto = precoDaCarga * imposto
+valorTotal = precoDaCarga + valorImposto
+
+
+print(f'Peso em kg: {pesoCargaKg}')
+print(f'Preço da carga: {precoDaCarga} R$')
+print(f'Valor do imposto: {valorImposto} R$')
 print(f'O valor total transportado é de {valorTotal} R$')
