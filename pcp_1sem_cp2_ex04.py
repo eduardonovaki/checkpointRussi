@@ -9,13 +9,13 @@ def calcular_descontos_faltas(salario_base, faltas):
 def calcular_bonus(cargo, recebeu_bonus):
     if recebeu_bonus.lower() == 's':
         if cargo ==1:
-            return 1.000
+            return 1000.0
         elif cargo ==2:
-            return 500
+            return 500.0
         elif cargo ==3:
-            return 300
+            return 300.0
         elif cargo ==4:
-            return 100
+            return 100.0
     return 0.0
 ################################################################################
 # PROGRAMA PRINCIPAL
